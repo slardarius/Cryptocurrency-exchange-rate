@@ -1,0 +1,40 @@
+.preloader-wrapper {
+    top: -19px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text-primary);
+}
+
+.preloader-spinner {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 0 calc(50vw - 55px);
+}
+
+.preloader-spinner:after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,10 @@
+.crypto-table {
+    margin-top: 15px;
+    color: var(--text-secondary);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.crypto-name {
+    width: 65px;
+}

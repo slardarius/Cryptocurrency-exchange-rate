@@ -1,0 +1,28 @@
+:root {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+}
+
+body {
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #6649b8;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
