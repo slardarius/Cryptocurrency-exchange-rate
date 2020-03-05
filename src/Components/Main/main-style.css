@@ -17,6 +17,23 @@
     transition: box-shadow 200ms ease;
 }
 
+.card--catch {
+    position: absolute;
+    padding: 20px;
+    border: 3px dashed darkblue; 
+    z-index: 1;
+}
+
+.card--catch::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(238, 238, 234, 0.5);
+}
+
 .card:hover {
     box-shadow: 4px 4px 11px -1px var(--box-shadow);
 }
